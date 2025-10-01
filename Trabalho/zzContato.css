@@ -113,18 +113,19 @@ body {
     color: white;
 }
 
-header {
+header{
+    margin-top: 20px;
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     padding: 1rem 9%;
-    display: flex;
-    justify-content: space-between; 
-    align-items: center;
     background-color: transparent;
-    z-index: 100;
     filter: drop-shadow(10px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
 }
 
 .logo {
@@ -206,4 +207,5 @@ nav a.active {
     font-size: 1.8rem;
     font-weight: 500;
 }
+
 
